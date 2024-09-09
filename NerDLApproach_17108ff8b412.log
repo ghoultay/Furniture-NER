@@ -1,0 +1,702 @@
+Name of the selected graph: ner-dl/blstm_10_768_128_120.pb
+Training started - total epochs: 50 - lr: 5.0E-4 - batch size: 128 - labels: 3 - chars: 62 - training examples: 530
+
+
+Epoch 1/50 started, lr: 5.0E-4, dataset size: 530
+
+
+Epoch 1/50 - 3.13s - loss: 74.20982 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.57s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 0	 0	 411	 0.0	 0.0	 0.0
+B-PROD	 0	 0	 137	 0.0	 0.0	 0.0
+tp: 0 fp: 0 fn: 548 labels: 2
+Macro-average	 prec: 0.0, rec: 0.0, f1: NaN
+Micro-average	 prec: 0.0, rec: 0.0, f1: 0.0
+
+
+Epoch 2/50 started, lr: 4.950495E-4, dataset size: 530
+
+
+Epoch 2/50 - 1.56s - loss: 99.24226 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 0	 0	 411	 0.0	 0.0	 0.0
+B-PROD	 0	 0	 137	 0.0	 0.0	 0.0
+tp: 0 fp: 0 fn: 548 labels: 2
+Macro-average	 prec: 0.0, rec: 0.0, f1: NaN
+Micro-average	 prec: 0.0, rec: 0.0, f1: 0.0
+
+
+Epoch 3/50 started, lr: 4.901961E-4, dataset size: 530
+
+
+Epoch 3/50 - 1.57s - loss: 53.58294 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 273	 136	 138	 0.66748166	 0.66423357	 0.6658537
+B-PROD	 83	 52	 54	 0.6148148	 0.60583943	 0.6102941
+tp: 356 fp: 188 fn: 192 labels: 2
+Macro-average	 prec: 0.6411482, rec: 0.63503647, f1: 0.63807774
+Micro-average	 prec: 0.6544118, rec: 0.649635, f1: 0.6520146
+
+
+Epoch 4/50 started, lr: 4.8543693E-4, dataset size: 530
+
+
+Epoch 4/50 - 1.62s - loss: 39.52159 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 352	 289	 59	 0.54914194	 0.8564477	 0.6692015
+B-PROD	 20	 10	 117	 0.6666667	 0.1459854	 0.23952094
+tp: 372 fp: 299 fn: 176 labels: 2
+Macro-average	 prec: 0.6079043, rec: 0.50121653, f1: 0.54942924
+Micro-average	 prec: 0.55439645, rec: 0.6788321, f1: 0.61033636
+
+
+Epoch 5/50 started, lr: 4.8076926E-4, dataset size: 530
+
+
+Epoch 5/50 - 1.59s - loss: 33.260136 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 212	 85	 199	 0.7138047	 0.5158151	 0.5988701
+B-PROD	 36	 9	 101	 0.8	 0.26277372	 0.3956044
+tp: 248 fp: 94 fn: 300 labels: 2
+Macro-average	 prec: 0.75690234, rec: 0.3892944, f1: 0.5141488
+Micro-average	 prec: 0.7251462, rec: 0.45255473, f1: 0.55730337
+
+
+Epoch 6/50 started, lr: 4.7619053E-4, dataset size: 530
+
+
+Epoch 6/50 - 1.52s - loss: 30.130638 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 280	 113	 131	 0.7124682	 0.68126523	 0.6965174
+B-PROD	 70	 26	 67	 0.7291667	 0.5109489	 0.60085833
+tp: 350 fp: 139 fn: 198 labels: 2
+Macro-average	 prec: 0.72081745, rec: 0.59610707, f1: 0.6525573
+Micro-average	 prec: 0.7157464, rec: 0.6386861, f1: 0.67502403
+
+
+Epoch 7/50 started, lr: 4.7169815E-4, dataset size: 530
+
+
+Epoch 7/50 - 1.61s - loss: 25.15718 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.26s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 363	 156	 48	 0.69942194	 0.8832117	 0.7806452
+B-PROD	 97	 41	 40	 0.70289856	 0.7080292	 0.7054545
+tp: 460 fp: 197 fn: 88 labels: 2
+Macro-average	 prec: 0.70116025, rec: 0.79562044, f1: 0.7454098
+Micro-average	 prec: 0.7001522, rec: 0.8394161, f1: 0.7634855
+
+
+Epoch 8/50 started, lr: 4.672897E-4, dataset size: 530
+
+
+Epoch 8/50 - 1.55s - loss: 23.837635 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 357	 137	 54	 0.72267205	 0.8686131	 0.78895026
+B-PROD	 92	 31	 45	 0.7479675	 0.67153287	 0.7076923
+tp: 449 fp: 168 fn: 99 labels: 2
+Macro-average	 prec: 0.73531973, rec: 0.770073, f1: 0.75229514
+Micro-average	 prec: 0.7277148, rec: 0.8193431, f1: 0.7708155
+
+
+Epoch 9/50 started, lr: 4.6296295E-4, dataset size: 530
+
+
+Epoch 9/50 - 1.65s - loss: 21.918278 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 320	 105	 91	 0.7529412	 0.77858883	 0.76555026
+B-PROD	 72	 22	 65	 0.7659575	 0.52554744	 0.62337667
+tp: 392 fp: 127 fn: 156 labels: 2
+Macro-average	 prec: 0.75944936, rec: 0.65206814, f1: 0.7016742
+Micro-average	 prec: 0.7552987, rec: 0.71532845, f1: 0.7347705
+
+
+Epoch 10/50 started, lr: 4.587156E-4, dataset size: 530
+
+
+Epoch 10/50 - 1.53s - loss: 19.921877 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 344	 110	 67	 0.75770926	 0.83698297	 0.7953757
+B-PROD	 86	 25	 51	 0.7747748	 0.6277372	 0.6935484
+tp: 430 fp: 135 fn: 118 labels: 2
+Macro-average	 prec: 0.766242, rec: 0.7323601, f1: 0.74891806
+Micro-average	 prec: 0.76106197, rec: 0.78467155, f1: 0.7726864
+
+
+Epoch 11/50 started, lr: 4.5454546E-4, dataset size: 530
+
+
+Epoch 11/50 - 1.55s - loss: 19.197145 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 351	 105	 60	 0.7697368	 0.8540146	 0.80968857
+B-PROD	 99	 33	 38	 0.75	 0.72262776	 0.73605955
+tp: 450 fp: 138 fn: 98 labels: 2
+Macro-average	 prec: 0.7598684, rec: 0.78832114, f1: 0.7738333
+Micro-average	 prec: 0.7653061, rec: 0.8211679, f1: 0.79225355
+
+
+Epoch 12/50 started, lr: 4.5045046E-4, dataset size: 530
+
+
+Epoch 12/50 - 1.53s - loss: 17.904692 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 345	 92	 66	 0.7894737	 0.8394161	 0.8136793
+B-PROD	 97	 28	 40	 0.776	 0.7080292	 0.740458
+tp: 442 fp: 120 fn: 106 labels: 2
+Macro-average	 prec: 0.7827369, rec: 0.77372265, f1: 0.77820367
+Micro-average	 prec: 0.78647685, rec: 0.80656934, f1: 0.7963964
+
+
+Epoch 13/50 started, lr: 4.464286E-4, dataset size: 530
+
+
+Epoch 13/50 - 1.52s - loss: 16.902176 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 348	 95	 63	 0.78555304	 0.84671533	 0.81498826
+B-PROD	 97	 30	 40	 0.7637795	 0.7080292	 0.73484856
+tp: 445 fp: 125 fn: 103 labels: 2
+Macro-average	 prec: 0.7746663, rec: 0.77737224, f1: 0.7760169
+Micro-average	 prec: 0.78070176, rec: 0.8120438, f1: 0.7960644
+
+
+Epoch 14/50 started, lr: 4.424779E-4, dataset size: 530
+
+
+Epoch 14/50 - 1.61s - loss: 14.653871 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.35s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 352	 93	 59	 0.7910112	 0.8564477	 0.8224299
+B-PROD	 99	 30	 38	 0.76744187	 0.72262776	 0.7443609
+tp: 451 fp: 123 fn: 97 labels: 2
+Macro-average	 prec: 0.77922654, rec: 0.7895377, f1: 0.7843483
+Micro-average	 prec: 0.78571427, rec: 0.8229927, f1: 0.8039215
+
+
+Epoch 15/50 started, lr: 4.3859653E-4, dataset size: 530
+
+
+Epoch 15/50 - 1.66s - loss: 14.675631 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 351	 90	 60	 0.79591835	 0.8540146	 0.8239437
+B-PROD	 99	 30	 38	 0.76744187	 0.72262776	 0.7443609
+tp: 450 fp: 120 fn: 98 labels: 2
+Macro-average	 prec: 0.7816801, rec: 0.78832114, f1: 0.78498656
+Micro-average	 prec: 0.7894737, rec: 0.8211679, f1: 0.80500895
+
+
+Epoch 16/50 started, lr: 4.3478265E-4, dataset size: 530
+
+
+Epoch 16/50 - 1.55s - loss: 13.239944 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.30s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 351	 79	 60	 0.81627905	 0.8540146	 0.8347206
+B-PROD	 101	 31	 36	 0.7651515	 0.73722625	 0.75092936
+tp: 452 fp: 110 fn: 96 labels: 2
+Macro-average	 prec: 0.7907153, rec: 0.79562044, f1: 0.7931603
+Micro-average	 prec: 0.80427045, rec: 0.82481754, f1: 0.8144145
+
+
+Epoch 17/50 started, lr: 4.310345E-4, dataset size: 530
+
+
+Epoch 17/50 - 1.65s - loss: 12.945038 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 355	 86	 56	 0.8049887	 0.86374694	 0.8333334
+B-PROD	 102	 33	 35	 0.75555557	 0.74452555	 0.75
+tp: 457 fp: 119 fn: 91 labels: 2
+Macro-average	 prec: 0.7802721, rec: 0.8041363, f1: 0.79202443
+Micro-average	 prec: 0.7934028, rec: 0.8339416, f1: 0.8131672
+
+
+Epoch 18/50 started, lr: 4.2735046E-4, dataset size: 530
+
+
+Epoch 18/50 - 1.59s - loss: 11.762132 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 355	 77	 56	 0.8217593	 0.86374694	 0.84223014
+B-PROD	 102	 35	 35	 0.74452555	 0.74452555	 0.74452555
+tp: 457 fp: 112 fn: 91 labels: 2
+Macro-average	 prec: 0.78314245, rec: 0.8041363, f1: 0.7935005
+Micro-average	 prec: 0.80316347, rec: 0.8339416, f1: 0.81826323
+
+
+Epoch 19/50 started, lr: 4.2372887E-4, dataset size: 530
+
+
+Epoch 19/50 - 1.56s - loss: 11.177035 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.38s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 357	 78	 54	 0.8206897	 0.8686131	 0.84397167
+B-PROD	 103	 32	 34	 0.76296294	 0.7518248	 0.757353
+tp: 460 fp: 110 fn: 88 labels: 2
+Macro-average	 prec: 0.7918263, rec: 0.81021893, f1: 0.800917
+Micro-average	 prec: 0.80701756, rec: 0.8394161, f1: 0.8228981
+
+
+Epoch 20/50 started, lr: 4.2016807E-4, dataset size: 530
+
+
+Epoch 20/50 - 1.64s - loss: 10.553997 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 357	 80	 54	 0.81693363	 0.8686131	 0.8419811
+B-PROD	 102	 31	 35	 0.7669173	 0.74452555	 0.7555555
+tp: 459 fp: 111 fn: 89 labels: 2
+Macro-average	 prec: 0.79192543, rec: 0.80656934, f1: 0.79918027
+Micro-average	 prec: 0.80526316, rec: 0.83759123, f1: 0.8211091
+
+
+Epoch 21/50 started, lr: 4.1666668E-4, dataset size: 530
+
+
+Epoch 21/50 - 1.57s - loss: 9.958855 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 356	 76	 55	 0.8240741	 0.86618006	 0.8446026
+B-PROD	 104	 30	 33	 0.7761194	 0.7591241	 0.76752764
+tp: 460 fp: 106 fn: 88 labels: 2
+Macro-average	 prec: 0.80009675, rec: 0.8126521, f1: 0.80632555
+Micro-average	 prec: 0.81272084, rec: 0.8394161, f1: 0.82585275
+
+
+Epoch 22/50 started, lr: 4.1322314E-4, dataset size: 530
+
+
+Epoch 22/50 - 1.55s - loss: 9.296338 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 348	 59	 63	 0.85503685	 0.84671533	 0.8508557
+B-PROD	 102	 27	 35	 0.7906977	 0.74452555	 0.7669173
+tp: 450 fp: 86 fn: 98 labels: 2
+Macro-average	 prec: 0.8228673, rec: 0.79562044, f1: 0.8090145
+Micro-average	 prec: 0.8395522, rec: 0.8211679, f1: 0.83025825
+
+
+Epoch 23/50 started, lr: 4.0983607E-4, dataset size: 530
+
+
+Epoch 23/50 - 1.55s - loss: 8.933386 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 367	 84	 44	 0.8137472	 0.89294404	 0.85150814
+B-PROD	 106	 33	 31	 0.76258993	 0.77372265	 0.768116
+tp: 473 fp: 117 fn: 75 labels: 2
+Macro-average	 prec: 0.78816855, rec: 0.8333334, f1: 0.810122
+Micro-average	 prec: 0.8016949, rec: 0.8631387, f1: 0.83128303
+
+
+Epoch 24/50 started, lr: 4.0650408E-4, dataset size: 530
+
+
+Epoch 24/50 - 1.65s - loss: 8.858793 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 348	 60	 63	 0.85294116	 0.84671533	 0.84981686
+B-PROD	 101	 24	 36	 0.808	 0.73722625	 0.7709923
+tp: 449 fp: 84 fn: 99 labels: 2
+Macro-average	 prec: 0.83047056, rec: 0.7919708, f1: 0.8107639
+Micro-average	 prec: 0.8424015, rec: 0.8193431, f1: 0.83071226
+
+
+Epoch 25/50 started, lr: 4.0322583E-4, dataset size: 530
+
+
+Epoch 25/50 - 1.54s - loss: 9.51686 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 370	 85	 41	 0.8131868	 0.9002433	 0.85450345
+B-PROD	 108	 34	 29	 0.7605634	 0.7883212	 0.7741935
+tp: 478 fp: 119 fn: 70 labels: 2
+Macro-average	 prec: 0.7868751, rec: 0.84428227, f1: 0.8145685
+Micro-average	 prec: 0.80067, rec: 0.8722628, f1: 0.8349345
+
+
+Epoch 26/50 started, lr: 4.0000002E-4, dataset size: 530
+
+
+Epoch 26/50 - 1.60s - loss: 9.978195 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 346	 53	 65	 0.8671679	 0.84184915	 0.854321
+B-PROD	 102	 24	 35	 0.8095238	 0.74452555	 0.77566534
+tp: 448 fp: 77 fn: 100 labels: 2
+Macro-average	 prec: 0.8383459, rec: 0.7931874, f1: 0.8151417
+Micro-average	 prec: 0.85333335, rec: 0.81751823, f1: 0.83504194
+
+
+Epoch 27/50 started, lr: 3.9682543E-4, dataset size: 530
+
+
+Epoch 27/50 - 1.56s - loss: 11.386871 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.29s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 362	 73	 49	 0.8321839	 0.8807786	 0.8557919
+B-PROD	 102	 28	 35	 0.7846154	 0.74452555	 0.764045
+tp: 464 fp: 101 fn: 84 labels: 2
+Macro-average	 prec: 0.8083997, rec: 0.8126521, f1: 0.81052035
+Micro-average	 prec: 0.82123893, rec: 0.84671533, f1: 0.8337826
+
+
+Epoch 28/50 started, lr: 3.9370082E-4, dataset size: 530
+
+
+Epoch 28/50 - 1.59s - loss: 9.03389 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 370	 87	 41	 0.809628	 0.9002433	 0.85253453
+B-PROD	 110	 38	 27	 0.7432432	 0.8029197	 0.77192986
+tp: 480 fp: 125 fn: 68 labels: 2
+Macro-average	 prec: 0.7764356, rec: 0.85158145, f1: 0.8122743
+Micro-average	 prec: 0.7933884, rec: 0.8759124, f1: 0.8326106
+
+
+Epoch 29/50 started, lr: 3.9062503E-4, dataset size: 530
+
+
+Epoch 29/50 - 1.61s - loss: 7.9148254 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.29s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 340	 48	 71	 0.87628865	 0.8272506	 0.85106385
+B-PROD	 103	 25	 34	 0.8046875	 0.7518248	 0.7773585
+tp: 443 fp: 73 fn: 105 labels: 2
+Macro-average	 prec: 0.8404881, rec: 0.78953767, f1: 0.81421655
+Micro-average	 prec: 0.8585271, rec: 0.80839413, f1: 0.8327068
+
+
+Epoch 30/50 started, lr: 3.8759693E-4, dataset size: 530
+
+
+Epoch 30/50 - 1.61s - loss: 7.631358 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 360	 66	 51	 0.8450704	 0.8759124	 0.86021507
+B-PROD	 108	 31	 29	 0.77697843	 0.7883212	 0.78260875
+tp: 468 fp: 97 fn: 80 labels: 2
+Macro-average	 prec: 0.8110244, rec: 0.83211684, f1: 0.8214353
+Micro-average	 prec: 0.8283186, rec: 0.8540146, f1: 0.84097034
+
+
+Epoch 31/50 started, lr: 3.846154E-4, dataset size: 530
+
+
+Epoch 31/50 - 1.61s - loss: 7.184057 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.29s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 367	 68	 44	 0.8436782	 0.89294404	 0.8676123
+B-PROD	 109	 31	 28	 0.7785714	 0.79562044	 0.78700364
+tp: 476 fp: 99 fn: 72 labels: 2
+Macro-average	 prec: 0.8111248, rec: 0.84428227, f1: 0.8273714
+Micro-average	 prec: 0.8278261, rec: 0.8686131, f1: 0.84772927
+
+
+Epoch 32/50 started, lr: 3.8167942E-4, dataset size: 530
+
+
+Epoch 32/50 - 1.58s - loss: 6.55038 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 354	 53	 57	 0.8697789	 0.8613139	 0.8655257
+B-PROD	 104	 24	 33	 0.8125	 0.7591241	 0.7849057
+tp: 458 fp: 77 fn: 90 labels: 2
+Macro-average	 prec: 0.84113944, rec: 0.810219, f1: 0.8253898
+Micro-average	 prec: 0.85607475, rec: 0.83576643, f1: 0.84579873
+
+
+Epoch 33/50 started, lr: 3.7878793E-4, dataset size: 530
+
+
+Epoch 33/50 - 1.56s - loss: 5.7901397 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.29s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 360	 62	 51	 0.8530806	 0.8759124	 0.8643457
+B-PROD	 105	 26	 32	 0.8015267	 0.76642334	 0.7835821
+tp: 465 fp: 88 fn: 83 labels: 2
+Macro-average	 prec: 0.82730365, rec: 0.8211679, f1: 0.82422435
+Micro-average	 prec: 0.840868, rec: 0.8485401, f1: 0.8446866
+
+
+Epoch 34/50 started, lr: 3.7593988E-4, dataset size: 530
+
+
+Epoch 34/50 - 1.62s - loss: 5.887859 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 361	 62	 50	 0.8534279	 0.8783455	 0.8657074
+B-PROD	 110	 31	 27	 0.78014183	 0.8029197	 0.79136693
+tp: 471 fp: 93 fn: 77 labels: 2
+Macro-average	 prec: 0.81678486, rec: 0.84063256, f1: 0.82853717
+Micro-average	 prec: 0.8351064, rec: 0.859489, f1: 0.8471223
+
+
+Epoch 35/50 started, lr: 3.7313433E-4, dataset size: 530
+
+
+Epoch 35/50 - 1.59s - loss: 5.4058876 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.30s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 356	 53	 55	 0.8704156	 0.86618006	 0.8682927
+B-PROD	 107	 26	 30	 0.80451125	 0.7810219	 0.7925926
+tp: 463 fp: 79 fn: 85 labels: 2
+Macro-average	 prec: 0.83746344, rec: 0.823601, f1: 0.8304744
+Micro-average	 prec: 0.8542435, rec: 0.84489053, f1: 0.84954125
+
+
+Epoch 36/50 started, lr: 3.7037037E-4, dataset size: 530
+
+
+Epoch 36/50 - 1.56s - loss: 5.2927046 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 363	 59	 48	 0.86018956	 0.8832117	 0.8715486
+B-PROD	 109	 27	 28	 0.8014706	 0.79562044	 0.79853487
+tp: 472 fp: 86 fn: 76 labels: 2
+Macro-average	 prec: 0.8308301, rec: 0.839416, f1: 0.83510095
+Micro-average	 prec: 0.8458781, rec: 0.8613139, f1: 0.8535263
+
+
+Epoch 37/50 started, lr: 3.6764707E-4, dataset size: 530
+
+
+Epoch 37/50 - 1.60s - loss: 5.2174053 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 365	 60	 46	 0.85882354	 0.88807786	 0.8732057
+B-PROD	 110	 27	 27	 0.8029197	 0.8029197	 0.8029197
+tp: 475 fp: 87 fn: 73 labels: 2
+Macro-average	 prec: 0.8308716, rec: 0.8454988, f1: 0.8381214
+Micro-average	 prec: 0.8451957, rec: 0.8667883, f1: 0.8558558
+
+
+Epoch 38/50 started, lr: 3.6496352E-4, dataset size: 530
+
+
+Epoch 38/50 - 1.54s - loss: 4.9313965 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 359	 53	 52	 0.8713592	 0.8734793	 0.872418
+B-PROD	 109	 28	 28	 0.79562044	 0.79562044	 0.79562044
+tp: 468 fp: 81 fn: 80 labels: 2
+Macro-average	 prec: 0.83348984, rec: 0.8345499, f1: 0.83401954
+Micro-average	 prec: 0.852459, rec: 0.8540146, f1: 0.85323614
+
+
+Epoch 39/50 started, lr: 3.6231885E-4, dataset size: 530
+
+
+Epoch 39/50 - 1.55s - loss: 4.621946 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 363	 55	 48	 0.8684211	 0.8832117	 0.875754
+B-PROD	 113	 29	 24	 0.79577464	 0.82481754	 0.8100358
+tp: 476 fp: 84 fn: 72 labels: 2
+Macro-average	 prec: 0.8320979, rec: 0.85401464, f1: 0.84291387
+Micro-average	 prec: 0.85, rec: 0.8686131, f1: 0.8592058
+
+
+Epoch 40/50 started, lr: 3.5971226E-4, dataset size: 530
+
+
+Epoch 40/50 - 1.58s - loss: 4.271674 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.27s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 363	 54	 48	 0.8705036	 0.8832117	 0.87681156
+B-PROD	 112	 32	 25	 0.7777778	 0.81751823	 0.797153
+tp: 475 fp: 86 fn: 73 labels: 2
+Macro-average	 prec: 0.82414067, rec: 0.8503649, f1: 0.83704746
+Micro-average	 prec: 0.84670234, rec: 0.8667883, f1: 0.8566276
+
+
+Epoch 41/50 started, lr: 3.5714288E-4, dataset size: 530
+
+
+Epoch 41/50 - 1.64s - loss: 4.187483 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.29s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 360	 49	 51	 0.8801956	 0.8759124	 0.8780488
+B-PROD	 110	 28	 27	 0.79710144	 0.8029197	 0.8
+tp: 470 fp: 77 fn: 78 labels: 2
+Macro-average	 prec: 0.83864856, rec: 0.839416, f1: 0.8390321
+Micro-average	 prec: 0.8592322, rec: 0.8576642, f1: 0.8584475
+
+
+Epoch 42/50 started, lr: 3.5460995E-4, dataset size: 530
+
+
+Epoch 42/50 - 1.57s - loss: 3.9826658 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 361	 49	 50	 0.8804878	 0.8783455	 0.87941533
+B-PROD	 110	 27	 27	 0.8029197	 0.8029197	 0.8029197
+tp: 471 fp: 76 fn: 77 labels: 2
+Macro-average	 prec: 0.8417038, rec: 0.84063256, f1: 0.8411678
+Micro-average	 prec: 0.8610603, rec: 0.859489, f1: 0.86027396
+
+
+Epoch 43/50 started, lr: 3.521127E-4, dataset size: 530
+
+
+Epoch 43/50 - 1.56s - loss: 4.065209 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 360	 50	 51	 0.8780488	 0.8759124	 0.8769793
+B-PROD	 111	 30	 26	 0.78723407	 0.810219	 0.79856116
+tp: 471 fp: 80 fn: 77 labels: 2
+Macro-average	 prec: 0.8326414, rec: 0.84306574, f1: 0.8378212
+Micro-average	 prec: 0.85480946, rec: 0.859489, f1: 0.85714287
+
+
+Epoch 44/50 started, lr: 3.496504E-4, dataset size: 530
+
+
+Epoch 44/50 - 1.55s - loss: 3.72077 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.29s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 364	 50	 47	 0.87922704	 0.8856448	 0.88242424
+B-PROD	 112	 30	 25	 0.7887324	 0.81751823	 0.80286735
+tp: 476 fp: 80 fn: 72 labels: 2
+Macro-average	 prec: 0.8339797, rec: 0.8515815, f1: 0.8426888
+Micro-average	 prec: 0.8561151, rec: 0.8686131, f1: 0.8623188
+
+
+Epoch 45/50 started, lr: 3.4722223E-4, dataset size: 530
+
+
+Epoch 45/50 - 1.60s - loss: 3.6334915 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.29s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 362	 48	 49	 0.8829268	 0.8807786	 0.8818514
+B-PROD	 108	 25	 29	 0.8120301	 0.7883212	 0.8
+tp: 470 fp: 73 fn: 78 labels: 2
+Macro-average	 prec: 0.84747845, rec: 0.8345499, f1: 0.8409645
+Micro-average	 prec: 0.8655617, rec: 0.8576642, f1: 0.86159486
+
+
+Epoch 46/50 started, lr: 3.448276E-4, dataset size: 530
+
+
+Epoch 46/50 - 1.58s - loss: 3.7149236 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 365	 50	 46	 0.8795181	 0.88807786	 0.8837772
+B-PROD	 109	 26	 28	 0.8074074	 0.79562044	 0.8014706
+tp: 474 fp: 76 fn: 74 labels: 2
+Macro-average	 prec: 0.8434627, rec: 0.84184915, f1: 0.8426552
+Micro-average	 prec: 0.8618182, rec: 0.86496353, f1: 0.863388
+
+
+Epoch 47/50 started, lr: 3.4246576E-4, dataset size: 530
+
+
+Epoch 47/50 - 1.58s - loss: 3.4484727 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 367	 50	 44	 0.8800959	 0.89294404	 0.8864734
+B-PROD	 110	 28	 27	 0.79710144	 0.8029197	 0.8
+tp: 477 fp: 78 fn: 71 labels: 2
+Macro-average	 prec: 0.83859867, rec: 0.84793186, f1: 0.8432394
+Micro-average	 prec: 0.85945946, rec: 0.870438, f1: 0.8649139
+
+
+Epoch 48/50 started, lr: 3.4013606E-4, dataset size: 530
+
+
+Epoch 48/50 - 1.57s - loss: 3.2412653 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.28s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 369	 51	 42	 0.87857145	 0.8978102	 0.8880866
+B-PROD	 112	 28	 25	 0.8	 0.81751823	 0.80866426
+tp: 481 fp: 79 fn: 67 labels: 2
+Macro-average	 prec: 0.83928573, rec: 0.8576642, f1: 0.84837544
+Micro-average	 prec: 0.85892856, rec: 0.8777372, f1: 0.86823106
+
+
+Epoch 49/50 started, lr: 3.3783785E-4, dataset size: 530
+
+
+Epoch 49/50 - 1.55s - loss: 3.2826722 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.30s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 362	 46	 49	 0.8872549	 0.8807786	 0.8840049
+B-PROD	 111	 28	 26	 0.79856116	 0.810219	 0.8043479
+tp: 473 fp: 74 fn: 75 labels: 2
+Macro-average	 prec: 0.842908, rec: 0.8454988, f1: 0.84420145
+Micro-average	 prec: 0.86471665, rec: 0.8631387, f1: 0.86392695
+
+
+Epoch 50/50 started, lr: 3.3557048E-4, dataset size: 530
+
+
+Epoch 50/50 - 1.56s - loss: 3.1139195 - batches: 7
+Quality on test dataset: 
+time to finish evaluation: 0.30s
+label	 tp	 fp	 fn	 prec	 rec	 f1
+I-PROD	 372	 53	 39	 0.8752941	 0.90510947	 0.8899521
+B-PROD	 112	 29	 25	 0.79432625	 0.81751823	 0.8057554
+tp: 484 fp: 82 fn: 64 labels: 2
+Macro-average	 prec: 0.83481014, rec: 0.8613138, f1: 0.84785485
+Micro-average	 prec: 0.8551237, rec: 0.8832117, f1: 0.8689408

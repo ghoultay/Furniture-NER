@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Extractor</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Extract Product Names from URL</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- Form to submit the URL -->
+                <form method="POST" action="/">
+                    <div class="form-group">
+                        <label for="url">Enter URL:</label>
+                        <input type="text" class="form-control" id="url" name="url" placeholder="Enter URL here" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Extract Products</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Displaying error message if any -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                {% if error_message %}
+                    <div class="alert alert-danger" role="alert">
+                        {{ error_message }}
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- Displaying product names if any -->
+        <div class="row justify-content-center mt-4">
+            <div class="col-md-6">
+                {% if products %}
+                    <h3>Extracted Products:</h3>
+                    <ul class="list-group">
+                        {% for product in products %}
+                            <li class="list-group-item">{{ product }}</li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
